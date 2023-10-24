@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+h1 {
+    color: #00455e;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.contactimg {
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textlable {
+    color: #00455e;
+    font-size: 20px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.writearea {
+    width: 350px;
+    padding-left: 15px;
+    color: #00455e;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.writearea::placeholder {
+    font-size: 15px;
+}
+
+.writearea:focus {
+    outline: none;
+}
+
+.submit {
+    width: 350px;
+    background-color: #ffae00;
+    color: #00455e;
+    font-weight: bold;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}

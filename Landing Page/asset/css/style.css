@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Loader */
+
+#loader {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.loaderimg {
+    width: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+#body {
+    display: none;
+}
+
+
+/* Navbar */
+
+.nav {
+    background-color: #ffae00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.navrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px 0;
+}
+
+.navlogo {
+    width: 80px;
+}
+
+.navtag {
+    color: #00455e;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline {
+    text-align: center;
+}
+
+
+/* Wallpaper */
+
+.wallimg2 {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .wallimg1 {
+        display: none;
+    }
+    .wallimg2 {
+        display: block;
+    }
+}
+
+
+/* About Us */
+
+.heading {
+    color: #00455e;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.det1,
+.det2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detlogo {
+    width: 180px;
+}
+
+.alldet {
+    color: #00455e;
+}
+
+
+/* Form */
+
+.contactimg {
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textlable {
+    color: #00455e;
+    font-size: 20px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.writearea {
+    width: 350px;
+    padding-left: 15px;
+    color: #00455e;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.writearea::placeholder {
+    font-size: 15px;
+}
+
+.writearea:focus {
+    outline: none;
+}
+
+.succmessage {
+    background-color: #a1dbc1;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.errmessage {
+    background-color: rgb(240, 173, 173);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.submit {
+    width: 350px;
+    background-color: #ffae00;
+    color: #00455e;
+    font-weight: bold;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #ffae00;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 2px;
+}
+
+.hyperlink {
+    color: black;
+    font-size: 18px;
+}
+
+.hyperlink:hover {
+    color: #00455e;
+}
+
+.tel {
+    color: black;
+    text-decoration: none;
+    /* font-size: 18px; */
+}
+
+.tel:hover {
+    color: #00455e;
+    text-decoration: none;
+}
+
+.footerlogo {
+    width: 150px;
+}
+
+.fotr {
+    margin-top: 20px;
+}
+
+.below {
+    display: none;
+}
+
+@media (max-width:786px) {
+    .below {
+        display: block;
+    }
+}
+
+.webcoderz {
+    color: black;
+    text-decoration: none;
+}
+
+.webcoderz:hover {
+    color: #00455e;
+    text-decoration: none;
+}

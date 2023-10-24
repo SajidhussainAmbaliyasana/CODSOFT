@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datatable {
+    width: 80%;
+}
+
+.table {
+    border: 4px solid #00455e;
+    text-align: center;
+}
+
+td,
+th {
+    border: 2px solid #00455e;
+}
+
+.bin {
+    color: black;
+}
+
+.bin:hover {
+    color: red;
+}
+
+.update {
+    color: black;
+}
+
+.update:hover {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: #00455e;
+}
+
+
+/* Top Btn */
+
+.lgout {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+.logout {
+    color: #00455e;
+    background-color: #ffae00;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.delall {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+.deletebtn {
+    float: right;
+    color: #00455e;
+    background-color: #ffae00;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
